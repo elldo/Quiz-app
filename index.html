@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz App</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz App</h1>
+    </header>
+    <div class="container">
+        <!--Start screen-->
+        <button type="submit" id="start">Start Quiz</button>
+
+        <!--Questions-->
+        <div class="question-box hidden">
+            <div class="question-title">
+                <h2>Kako se zove vrlo utjecajna osoba?</h2>
+            </div>
+            <div class="answers">
+                <div class="block1">
+                    <div class="answer-one">
+                        <button>krupna riba</button>
+                    </div>
+                    <div class="answer-two">
+                        <button>bijela riba</button>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="answer-three">
+                        <button>slana riba</button>
+                    </div>
+                    <div class="answer-four">
+                        <button>plava riba</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Score-->
+        <div class="score-box hidden">
+            <h2>Score:</h2>
+            <p>Correct answer:</p>
+            <p>Wrong answer:</p>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
