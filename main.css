@@ -3,7 +3,8 @@ header {
     margin: auto;
     width: 800px;
     height: 80px;
-    border: 1px solid black;
+    border: 1px solid #afafaf;
+    border-bottom: 0;
     border-radius: 3px;
 }
 
@@ -15,19 +16,19 @@ header h1 {
     margin: auto;
     width: 800px;
     background-color: #d6d6d6;
-    border: 1px solid black;
+    border: 1px solid #afafaf;
     border-radius: 3px;
 }
 
 #start {
-    margin: 80px auto auto auto;
+    margin: 80px auto;
     display: block;
     width: 150px;
     height: 80px;
 }
 
 .hidden {
-    visibility: hidden;
+    display: none !important;
 }
 
 .question-box {
@@ -61,4 +62,8 @@ header h1 {
     width: 400px;
     margin: auto;
     padding-bottom: 30px;
+}
+
+* {
+    border-radius: 0 !important;
 }
